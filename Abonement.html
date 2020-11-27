@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- CSS only -->
+<html>
+<head>
+    <title>GK - Абонементы</title>
+    <link rel="shortcut icon" href="Logo.PNG" type="image/png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #070000;">
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <a class="navbar-brand ml-3 my-1" href="#">
+                <img src="Logo.PNG" width="100" height="50" alt="">
+            </a>
+            <ul class="navbar-nav mr-auto mx-3">
+                <li class="nav-item active">
+                    <a class="nav-link ml-5 my-1" href="#">Абонементы <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link ml-5 my-1" href="#">Fit & Spa <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link ml-5 my-1" href="#">О компании <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>            
+        </div>
+    </nav>
+    <div class="row">        
+        <div class="col">
+            <img src="bg-1.jpg" class="rounded text-center" width="1350" height="900" alt="...">
+        </div>
+        <div class="col">
+            <form>
+                <div class="form-group">
+                    <label for="formFIO"><span style="color: white">ФИО</spain></label>
+                    <input type="text" class="form-control" size="10" id="formFIO" placeholder="ФИО">
+                </div>
+                <div class="form-group">
+                    <label for="formEmail"><span style="color: white">E-MAIL</spain></label>
+                    <input type="email" class="form-control" size="10" id="formEmail" placeholder="E-MAIL">     
+                </div> 
+                <div class="form-group">             
+                    <label for="formTel"><span style="color: white">ТЕЛЕФОН</spain></label>
+                    <input type="tel" class="form-control" size="10" id="formTel" placeholder="ТЕЛЕФОН">
+                </div>
+                <p>
+                    <div>
+                        <label><span style="color: white">Пожалуйста, выберите программу вашего абонемента!</spain></label>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadio1"><span style="color: white"> месяц. Фитнесс</spain> </label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadio2"><span style="color: white">1 месяц. Фитнесс+Спа</spain> </label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadio1"><span style="color: white">6 месяцев. Фитнесс</spain></label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadio2"><span style="color: white">6 месяцев. Фитнесс+Спа</spain></label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" id="customRadio5" name="customRadio" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadio1"><span style="color: white">12 месяцев.. Фитнесс</spain></label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" id="customRadio6" name="customRadio" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadio2"><span style="color: white">12 месяцев.. Фитнесс+Спа</spain></label>
+                        </div>
+                    </div>
+                </p>
+
+                <p>
+                    <span style="color: white">ИТОГО К ОПЛАТЕ:</spain>
+                </p>
+                <!----output --->
+
+                <button class="btn btn-light" type="submit">Заказать</button>
+            </form>
+        </div>
+        <div class="col">
+            <img src="bg-1zerk.jpg" class="rounded float-right" width="850" height="900" alt="...">
+        </div>
+    </div>
+
+        
+            <div>
+                <h3 class="text-center">GKfitness</h3>
+            </div>  
+</body>
+</html>
