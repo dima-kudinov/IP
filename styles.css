@@ -1,17 +1,21 @@
 body {
-background-color: black;
+    background-color: black;
 }
 
-div.row{
+div.row {
     background-color: rgb(7, 0, 0);
 }
 
-.btn{
+.btn {
     color: rgb(255, 255, 255);
     background-color: rgb(51, 50, 50);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.form-control{
-    background-color: rgb(44, 43, 43);
+.form-control {
+    background-color: rgb(194, 193, 193);
+    width: 400px;
+}
+div.row mb-5 {
+    background-color: rgb(19, 18, 18);
 }
